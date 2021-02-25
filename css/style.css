@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+section {
+    max-width: 1200px;
+}
+
+.start_block {
+    background: url(../img/bg_head.jpg) no-repeat center;
+    width: 1440px;
+    height: 780px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 108px;
+}
+
+.main_logo {
+    display: flex;
+}
+
+.logo_text {
+    font-size: 30px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #f7f7f7;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.header_nav {
+    width: 480px;
+    display: block;
+}
+
+.header_nav ul {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header_nav ul li {
+    display: flex;
+}
+
+.header_nav ul li a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 60px;
+    color: #f7f7f7;
+    text-decoration: none;
+}
+
+.loupe {
+    cursor: pointer;
+}
+
+.button_nav {
+    width: 120px;
+    height: 50px;
+    border: 2px solid #cd6326;
+    border-radius: 5px;
+    background: transparent;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f7f7f7;
+    cursor: pointer;
+}
+
+.button_nav:hover {
+    background: #cd6326;
+}
+
+.button_nav:active {
+    background: #8f5613;
+}
+
+.survival {
+    display: block;
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: 100px;
+}
+
+.title_servival {
+    font-weight: normal;
+    font-size: 48px;
+    letter-spacing: 2px;
+    color: #cd6326;
+}
+
+.text_servival {
+    margin-top: 57px;
+    width: 274px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #f7f7f7;
+}
+
+.button_servival {
+    width: 160px;
+    height: 60px;
+    margin-top: 49px;
+    background: #cd6326;
+    border-radius: 5px;
+    border: none;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    text-align: center;
+    color: #f7f7f7;
+    cursor: pointer;
+}
+.button_servival:hover {
+    background: #e39128;
+}
+
+.button_servival:active {
+    background: #8f5613;
+}
