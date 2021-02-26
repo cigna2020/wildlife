@@ -1,1 +1,1 @@
-https://cigna2020/wildlife
+https://cigna2020.github.io/wildlife/
