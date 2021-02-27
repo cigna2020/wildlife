@@ -5,9 +5,14 @@
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-main {
+section {
     max-width: 1440px;
     margin: 0 auto;
+}
+
+.header_wrapper {
+    width: 100%;
+    background-color: #02160b;
 }
 
 .start_block {
@@ -78,20 +83,23 @@ header {
 .button_nav {
     width: 120px;
     height: 50px;
+    padding-left: 23px;
     border: 2px solid #cd6326;
     border-radius: 5px;
     background: transparent;
     font-size: 23px;
     display: flex;
     align-items: center;
-    justify-content: center;
     color: #f7f7f7;
     cursor: pointer;
 }
 
-.button_nav:hover {
+.header_nav ul li .button_nav:hover {
     background: #cd6326;
+    text-decoration: none;
 }
+
+/* =========== survival section =========== */
 
 .survival {
     display: block;
@@ -131,13 +139,12 @@ header {
     cursor: pointer;
 }
 .button_survival:hover,
-.input_block button:hover {
+.input_button:hover {
     background: #e39128;
 }
 
-/* articales section */
-
-.articales_wrapper {
+/* =========== articales section ===========*/
+.latest_articles_wrapper {
     background-color: #ccc;
 }
 
@@ -219,7 +226,7 @@ header {
     justify-content: center;
 }
 
-.input_block input {
+.input_email {
     width: 540px;
     height: 60px;
     padding: 15px;
@@ -229,7 +236,7 @@ header {
     color: #666666;
 }
 
-.input_block button {
+.input_button {
     width: 120px;
     height: 60px;
     background: #cd6326;
@@ -241,14 +248,21 @@ header {
     cursor: pointer;
 }
 
-.button_nav:active,
+.header_nav ul li .button_nav:active,
 .button_survival:active,
-.input_block button:active {
+.input_button:active {
     background: #8f5613;
 }
 
+/* =========== footer section ===========*/
 footer {
+    max-width: 1440px;
+    margin: 0 auto;
     background-image: url(../img/bg_footer.jpg);
+}
+
+.footer_block_wrapper {
+    background-color: #181617;
 }
 
 .footer_wrapper {
